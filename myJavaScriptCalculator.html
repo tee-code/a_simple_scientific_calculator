@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8" name = "viewport" content = "width=device-width, initial-scale= 1.0"/>
+	<link rel = "stylesheet" href = "myStyle.css" />
+	<title>My JavaScript Calculator</title>
+</head>
+<body>
+<div class = "wrapper">
+	<header>
+		<h4>My JavaScript Calculator</h4>
+	</header>
+	<nav>
+		<input id = "screen" type = "text" value = "" name = "resultScreen" maxlength = "35" readonly />
+	</nav>
+	<section>
+		<article>
+			<div id = "DRG">
+				<form>
+					<input type = "radio" name = "drg" id = "degree" checked><label>Degrees</label>
+					<input type = "radio" name = "drg" id = "radian"><label>Radians</label>
+					<input type = "radio" name = "drg" id = "Grads"><label>Grads</label>
+				</form>
+			</div>
+			<div id = "functionButton">
+				<button onclick = "cosine()" id = "off">cos</button>
+				<button onclick = "sine()" id = "off">sin</button>
+				<button onclick = "targent()" id = "off">tan</button>
+				<button onclick = "allDigits('(')" id = "off">(</button>
+				<button onclick = "allDigits(')')" id = "off">)</button>
+				<button onclick = "cosH()" id = "off">cosh</button>
+				<button onclick = "sinH()" id = "off">sinh</button>
+				<button onclick = "tanH()" id = "off">tanh</button>
+				<button onclick = "pi()" id = "off">pi</button>
+				<button onclick = "factorial()" id = "off">n!</button>
+				<button onclick = "Acosine()" id = "off">cos<sup>-1</sup></button>
+				<button onclick = "Asine()" id = "off">sin<sup>-1</sup></button>
+				<button onclick = "Atargent()" id = "off">tan<sup>-1</sup></button>
+				<button onclick = "integer()" id = "off">int</button>
+				<button onclick = "log()" id = "off">log</button>
+				<button onclick = "modulus()" id = "off">mod</button>
+				<button onclick = "ln()" id = "off">ln</button>
+				<button onclick = "exponential()" id = "off">Exp</button>
+				<button onclick = "power2()" id = "off">x<sup>2</sup></button>
+				<button onclick = "powerY()" id = "off">x<sup>y</sup></button>
+				<button onclick = "power3()" id = "off">x<sup>3</sup></button>
+				<button onclick = "squareRoot()" id = "off">√</button>
+				<button onclick = "cubeRoot()" id = "off">∛</button>
+				<button onclick = "yRoot()" id = "off"><sup>y</sup>√x</button>
+				<button onclick = "tenX()" id = "off">10<sup>x</sup></button>
+			</div>
+		</article>
+		<article>
+			<div id = "MFunction">
+				<button onclick = "MC()" id = "off">MC</button>
+				<button onclick = "MR()" id = "off">MR</button>
+				<button onclick = "MS()" id = "off">MS</button>
+				<button onclick = "Mplus()" id = "off">M+</button>
+				<button onclick = "Mminus()" id = "off">M-</button>
+			</div>
+			<div id = "functionButton">
+				<button onclick = "Delete()" id = "off">Del</button>
+				<button onclick = "Clear()" id = "off">CE</button>
+				<button onclick = "allClear()" id = "off">C</button>
+				<button onclick = "ON_CALCULATOR()" id = "on">ON</button>
+				<button onclick = "OFF_CALCULATOR()" id = "off">OFF</button>
+				<button onclick = "allDigits(1)" id = "off">1</button>
+				<button onclick = "allDigits(2)" id = "off">2</button>
+				<button onclick = "allDigits(3)" id = "off">3</button>
+				<button onclick = "division()" id = "off">/</button>
+				<button onclick = "percentage()" id = "off"> %</button>
+				<button onclick = "allDigits(4)" id = "off">4</button>
+				<button onclick = "allDigits(5)" id = "off">5</button>
+				<button onclick = "allDigits(6)" id = "off">6</button>
+				<button onclick = "multiplication()" id = "off">*</button>
+				<button onclick = "inverse()" id = "off"><sup>1</sup>/<sub>x</sub></button>
+				<button onclick = "allDigits(7)" id = "off">7</button>
+				<button onclick = "allDigits(8)" id = "off">8</button>
+				<button onclick = "allDigits(9)" id = "off">9</button>
+				<button onclick = "minus()" id = "off">-</button>
+				<button onclick = "PlusMinus()" id = "off"><u>+</u></button>
+				<button id = "zero" onclick = "allDigits(0)" id = "off">0</button>
+				<button onclick = "Dot()" id = "off">.</button>
+				<button onclick = "plus()" id = "off"> + </button>
+				<button onclick = "result()" id = "off"> = </button>
+			</div> 
+		</article>
+	</section>
+	<footer>Designed by:Odekunle Oluwatobiloba (teecode Creation|08096733464)</footer>
+</div>
+<script type = "text/javascript" src = "calculatorScriptCode.js"></script>
+</body>
+</html>
+

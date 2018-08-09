@@ -1,0 +1,95 @@
+.wrapper{
+  max-width:600px;
+  max-height:auto;
+  margin:auto;
+  padding:0px;
+  border:2px ridge #006666;
+  background:#f1f1f1;
+}
+header,nav,section,article,footer{
+	display:block;
+}
+header{
+	width: auto;
+	padding:5px 15px;
+	background:#006666;
+}
+h4{
+	font-style:italic;
+	color: white;
+}
+nav input {
+	width:576px;
+	height:40px;
+	padding:10px;
+	background:#f1f1f1;
+	color:black;
+	font-size:20px;
+	text-align:right;
+	font-style:bold;
+}
+section{
+	width:auto;
+	background:#006666;
+	display:-webkit-flex;
+	display:-moz-flex;
+}
+article{
+	display:-webkit-flex;
+	display:-moz-flex;
+	-webkit-flex:1;
+	-moz-flex:1;
+	border:2px ridge #006666;
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
+}
+#DRG{
+	background:#f1f1f1;
+	padding:10px;
+	text-align:center;
+	border:2px groove #f1f1f1;
+}
+#DRG label{
+	font-size:20px;
+	font-style:italic;
+}
+#functionButton button{
+	float:left;
+	width:59px;
+	height:40px;
+	padding:5px;
+}
+#MFunction{
+	background:#f1f1f1;
+	border:2px groove #f1f1f1;
+}
+button{
+	font-style:bold;
+	font-size:16px;
+	cursor:pointer;
+}
+#MFunction button{
+	float:left;
+	width:50px;
+	height:35px;
+	padding:5px;
+	margin:4px;
+}
+#functionButton #zero{
+	width:118px;
+	height:40px;
+	padding:5px;
+}
+#functionButton #equals{
+	width:59px;
+	height:80px;
+	padding:5px;
+}
+footer{
+	color:white;
+	text-align:center;
+	border:2px ridge #006666;
+	background:#006666;
+	padding:15px;
+	font-style:italic;
+}
